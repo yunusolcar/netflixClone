@@ -11,7 +11,6 @@
 </head>
 
 <body>
-
 <div class="upper">
             <div class="logo">
                         <a href="#">
