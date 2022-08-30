@@ -57,10 +57,9 @@ body {
 .banner {
   background-image: url(../Css/Images/220203-inventing-anna.jpg);
   background-size: cover;
-  /*background-position: center; */
   color: white;
   object-fit: contain;
-  height: 640px;
+  height: 800px;
 }
 
 .contents_banner {
@@ -107,7 +106,7 @@ body {
 }
 
 .bannerfb {
-  margin-top: 265px;
+  margin-top: 400px;
   height: 7.4rem;
   background-image: linear-gradient(180deg, transparent, rgba(37, 37, 37, 0.61), #111);
 }
