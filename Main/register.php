@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,38 +14,37 @@
 
 <body>
 
-<div class="login-div">
-            <div class="login">
-                        <div class="app-title">
-                                    <h1>Kaydol</h1>
-                        </div>
-            <form action="#" method="post">            
             <div class="login-div">
-                        <div class="input-text">
-                                    <input type="text" name="username" class="login-field" placeholder="Kullanıcı Adı/Mail" id="login-name">
-                                    <label class="log-field-icon" for="login-name"></label>
-                        </div>
-
-                        <div class="input-text">
-                                    <input type="text" name="password" class="login-field" placeholder="Şifre" id="login-pass">
-                                    <label class="log-field-icon" for="login-pass"></label>
-                        </div>
-                        <div class="input-text">
-                                    <input type="text" name="phone" class="login-field" placeholder="Telefon Numarası" id="login-phone">
-                                    <label class="log-field-icon" for="login-phone"></label>
-                        </div>
-                        <div class="input-text">
-                                    <input type="text" name="mail" class="login-field" placeholder="Mail Adresi" id="login-mail">
-                                    <label class="log-field-icon" for="login-mail"></label>
+                        <div class="login">
+                                    <div class="app-title">
+                                                <h1>Kaydol</h1>
                                     </div>
-                       <div>
-                        <input type="submit"  name="kayit" class="submit-button">Kaydol</button>
+                                    <form action="add.php" method="post">
+                                                <div class="login-div">
+                                                            <div class="input-text">
+                                                                        <input type="text" name="username" class="login-field" placeholder="Kullanıcı Adı/Mail" id="login-name">
+                                                                        <label class="log-field-icon" for="login-name"></label>
+                                                            </div>
+                                                            <div class="input-text">
+                                                                        <input type="text" name="phone" class="login-field" placeholder="Telefon Numarası" id="login-phone">
+                                                                        <label class="log-field-icon" for="login-phone"></label>
+                                                            </div>
+                                                            <div class="input-text">
+                                                                        <input type="text" name="mail" class="login-field" placeholder="Mail Adresi" id="login-mail">
+                                                                        <label class="log-field-icon" for="login-mail"></label>
+                                                            </div>
+                                                            <div class="input-text">
+                                                                        <input type="text" name="password" class="login-field" placeholder="Şifre" id="login-pass">
+                                                                        <label class="log-field-icon" for="login-pass"></label>
+                                                            </div>
+                                                            <div>
+                                                                        <button type="submit" name="kayit" class="submit-button">Kaydol</button>
+                                                            </div>
+                                                </div>
+                                    </form>
+                                  <!--<a href="#"><button href="#" class="submit-button">Giriş Yap</button>!-->
                         </div>
             </div>
-            </form>
-            <a href="#"><button href="#" class="submit-button">Giriş Yap</button>
-            </div>
-</div>
 
 
 
@@ -55,4 +55,5 @@
 
 
 </body>
+
 </html>

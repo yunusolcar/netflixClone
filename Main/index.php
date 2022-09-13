@@ -28,7 +28,7 @@
                                     <input type="text" name="password" class="login-field" placeholder="Şifre" id="login-pass">
                                     <label class="log-field-icon" for="login-pass"></label>
                         </div>
-                        <button href="index.php" name="giris" class="submit-button">Giriş Yap</button>
+                        <button name="giris" class="submit-button">Giriş Yap</button>
             </div>
             </form>
             <a href="kayit.php"><button  class="submit-button">Kaydol</button></a>
