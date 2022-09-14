@@ -22,19 +22,19 @@
                                     <form action="add.php" method="post">
                                                 <div class="login-div">
                                                             <div class="input-text">
-                                                                        <input type="text" name="username" class="login-field" placeholder="Kullanıcı Adı/Mail" id="login-name">
+                                                                        <input type="text" name="username" class="login-field" placeholder="Kullanıcı Adı/Mail" id="login-name" required>
                                                                         <label class="log-field-icon" for="login-name"></label>
                                                             </div>
                                                             <div class="input-text">
-                                                                        <input type="text" name="phone" class="login-field" placeholder="Telefon Numarası" id="login-phone">
+                                                                        <input type="text" name="phone" class="login-field" placeholder="Telefon Numarası" id="login-phone" required>
                                                                         <label class="log-field-icon" for="login-phone"></label>
                                                             </div>
                                                             <div class="input-text">
-                                                                        <input type="text" name="mail" class="login-field" placeholder="Mail Adresi" id="login-mail">
+                                                                        <input type="text" name="mail" class="login-field" placeholder="Mail Adresi" id="login-mail" required>
                                                                         <label class="log-field-icon" for="login-mail"></label>
                                                             </div>
                                                             <div class="input-text">
-                                                                        <input type="text" name="password" class="login-field" placeholder="Şifre" id="login-pass">
+                                                                        <input type="text" name="password" class="login-field" placeholder="Şifre" id="login-pass" required>
                                                                         <label class="log-field-icon" for="login-pass"></label>
                                                             </div>
                                                             <div>
@@ -45,14 +45,7 @@
                                   <!--<a href="#"><button href="#" class="submit-button">Giriş Yap</button>!-->
                         </div>
             </div>
-
-
-
-
-
-
-
-
+ 
 
 </body>
 
