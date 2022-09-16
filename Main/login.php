@@ -3,6 +3,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
             <meta charset="UTF-8">
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,15 +15,20 @@
 
 <body>
 
+<body>
+    <div class="navbar" id="navbar">
+        <img src="../Css/Images/netflix-logo-png-2564.png" alt="" class="logo" height="25px" style="padding:18px;">
+    </div>
+
             <div class="login-div">
                         <div class="login">
                                     <div class="app-title">
-                                                <h1>Giriş Yap</h1>
+                                                <h1 style="text-align:center;">Giriş Yap</h1>
                                     </div>
                                     <form action="loginCheck.php" method="post">
                                                 <div class="login-div">
                                                             <div class="input-text">
-                                                                        <input type="text" name="username" class="login-field" placeholder="Kullanıcı Adı/Mail" id="login-name" required>
+                                                                        <input type="text" name="username" class="login-field" placeholder="Kullanıcı Adınız" id="login-name" required>
                                                                         <label class="log-field-icon" for="login-name"></label>
                                                             </div>
                                                             <div class="input-text">
@@ -34,11 +40,10 @@
                                                             </div>
                                                 </div>
                                     </form>
-                                  <!--<a href="#"><button href="#" class="submit-button">Giriş Yap</button>!-->
+                                  <a href="register.php"><button class="submit-button">Netflix' e Kayıt Ol</button>
                         </div>
             </div>
- 
-
+  
 </body>
 
 </html>

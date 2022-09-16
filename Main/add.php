@@ -17,7 +17,7 @@ $query->close();
 $connect->close();
 
 if ($total > 0) {
-            echo "Added". "<script> window.location.href='index.html';</script>";
+            echo "Added". "<script> window.location.href='login.php';</script>";
 } else {
             echo "Not Added!!!";
 }
