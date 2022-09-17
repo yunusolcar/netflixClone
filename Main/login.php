@@ -32,7 +32,7 @@
                                                                         <label class="log-field-icon" for="login-name"></label>
                                                             </div>
                                                             <div class="input-text">
-                                                                        <input type="text" name="password" class="login-field" placeholder="Şifre" id="login-pass" required>
+                                                                        <input type="password" name="password" class="login-field" placeholder="Şifre" id="login-pass" required>
                                                                         <label class="log-field-icon" for="login-pass"></label>
                                                             </div>
                                                             <div>
