@@ -8,7 +8,6 @@ body {
             background-size: cover;
             font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
-
 .img-logo {
             height: 40px;
             margin-left: 45px;
@@ -122,6 +121,7 @@ body {
             color: #737373;
 }
 
+
 .signup-link {
             color: white;
             text-decoration: none;
@@ -129,7 +129,7 @@ body {
 
 
 .signup-link:hover {
-            text-decoration: underline;
+            text-decoration:none;
 }
 
 .face_icon {
