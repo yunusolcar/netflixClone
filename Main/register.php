@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sign Up</title>
-  <link rel="stylesheet" href="../Css/sign_in.css">
+  <link rel="stylesheet" href="../Css/login_register.css">
   <link rel="icon" href="../Css/Images/logo.png">
 </head>
 
@@ -18,12 +18,12 @@
   <div class="login-div">
     <div class="login">
       <div class="app-title">
-        <h1>Kaydol</h1>
+        <h1>Sign Up</h1>
       </div>
       <form action="add.php" method="post">
         <div class="login-div">
           <div class="input-text">
-            <input type="text" name="username" class="login-field" placeholder="First Name" id="login-name" required>
+            <input type="text" name="username" class="login-field" placeholder="Fullname" id="login-name" required>
             <label class="log-field-icon" for="login-name"></label>
           </div>
           <div class="input-text">
@@ -39,11 +39,11 @@
             <label class="log-field-icon" for="login-pass"></label>
           </div>
           <div>
-            <button type="submit" name="add" class="submit-button">Kaydol</button>
+            <button type="submit" name="add" class="submit-button">Sign Up</button>
           </div>
         </div>
       </form>
-      <a href="login.php"><button class="submit-button">Giriş Yap</button></a>
+      <a href="login.php"><button class="submit-button">Sign In</button></a>
     </div>
   </div>
 

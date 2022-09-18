@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix - Giriş</title>
-    <link rel="stylesheet" href="../Css/sign_in.css">
+    <link rel="stylesheet" href="../Css/login_register.css">
     <link rel="icon" href="../Css/Images/logo.png">
 </head>
 
@@ -38,8 +38,8 @@
                         </div>
                     </div>
                 </form>
-                <div class="signup" style="text-decoration:none ; color:gray; padding-top: 20px;">
-                  New to Netflix?    
+                <div class="signup">
+                   New to Netflix?    
                         <a href="register.php" style="color:white">Sign up now.</a>
                     </div>
                     <div class="more">
